@@ -48,14 +48,14 @@ export const Button = styled('button', {
         border: '2px solid $ignite500',
 
         '&:not(:disabled):hover': {
-          background: '$ignite500',
           color: '$white',
+          background: '$ignite500',
         },
 
         '&:disabled': {
-          backgroundColor: '$gray200',
           color: '$gray200',
           borderColor: '$gray200',
+          backgroundColor: 'transparent',
         },
       },
 
