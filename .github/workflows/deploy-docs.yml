@@ -21,8 +21,8 @@ jobs:
 
       - run: npm run build
         env:
-        TURBO_TOKEN: Tm9HhamZSj8gE5dyaamzAagK
-        TURBO_TEAM: linsdesignsystem
+          TURBO_TOKEN: Tm9HhamZSj8gE5dyaamzAagK
+          TURBO_TEAM: linsdesignsystem
 
       - name: Deploy storybook
         working-directory: ./packages/docs
